@@ -1,0 +1,9 @@
+__pycache__
+snippets
+
+musicWav
+come_over
+.env
+
+music/*
+!music/.gitkeep
