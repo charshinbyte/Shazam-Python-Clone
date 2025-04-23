@@ -9,13 +9,7 @@ conda create -n findmymusic -r requirements.txt
 Add youre recorded snippet audio file into the snippets folder and run the following command.
 
 ```
-python3 plot.py --audio "snippets/{YOUR AUDIO FILE}.wav" 
-```
-
-If your file is in a different format .mp3 or .m4a then you can use the format tag to convert it to wav before running
-
-```
-python3 plot.py --audio "snippets/{YOUR AUDIO FILE}.m4a" --format m4a 
+python3 plot.py --config config.yaml
 ```
 
 
